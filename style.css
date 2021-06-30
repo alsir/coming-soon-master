@@ -1,0 +1,129 @@
+body{
+	font-size: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+header img{
+	margin-top:25%;
+    margin-left: 42%;
+	margin-bottom: 6%;
+	align-self: center;
+	align-content: center;
+}
+header h1{
+	font-weight: 700;
+	line-height: 1.5rem;
+	font-size: 2.5rem;
+	text-align: center;
+	align-self: center;
+	margin-bottom: 10%;
+}
+header span{
+	font-weight: 300;
+	color: hsl(0, 0%, 59%);
+}
+header p{
+	font-size: 1.5rem;
+	text-align: center;
+	align-self: center;
+	font-weight: 500;
+	margin-bottom: 8%;
+}
+div{
+	justify-content: center;
+	align-items: center;
+}
+div input{
+	align-self: center;
+	margin-left: 10%;
+	width: 70%;
+	height: 55px;
+	padding-left: 8%;
+	border-radius: 27px;
+	border:1px solid hsl(223, 100%, 88%);
+	color: hsl(223, 100%, 88%);
+}
+div button{
+	margin-top: 2%;
+	margin-left: 10%;
+	height: 55px;
+	border-radius: 27px;
+	border:none;
+	width: 80%;
+	color: white;
+	background-color: hsl(223, 87%, 63%);
+	font-size: 1.1rem;
+	margin-bottom: 10%;
+}
+div img{
+	width: 80%;
+	margin: 10%;
+	margin-bottom: 8%;
+}
+div p{
+	color:hsl(0, 0%, 59%);
+	font-size: 1rem;
+	font-weight: 300;
+	text-align: center;
+	align-self: center;
+	margin-top: 0;
+}
+.icons{
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	justify-content: center;
+	margin-left: 10%;
+}
+.icons img{
+	width:5%;
+	color: hsl(0, 0%, 59%);
+	margin-left: 0;
+}
+.rights{
+text-align: center;
+margin-bottom: 0;
+}
+@media (min-width: 600px){
+
+	header img{
+	margin-top:2%;
+    margin-left: 47%;
+	margin-bottom: 2%;
+	align-self: center;
+	align-content: center;
+}
+header h1{
+	margin-bottom: 3%;
+}
+header p{
+	margin-bottom: 2%;
+}
+div input{
+	width: 45%;
+	margin-left: 15%;
+	padding-left: 2%;
+	height: 50px;
+
+}
+div button{
+	width: 20%;
+	margin-left: 0;
+	height: 50px;
+	margin-bottom: 2%;
+}
+div img{
+	width: 75%;
+	margin-left: 12.5%;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+.icons img{
+	width: 2%;
+	color: hsl(0, 0%, 59%);
+	margin: 1%;
+}
+.rights p{
+text-align: center;
+margin-left:10% ;
+}
+}
